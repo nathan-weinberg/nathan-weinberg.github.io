@@ -1,111 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-	<head>
-
-		<title>Nathan Weinberg</title>
-		<link rel="stylesheet" href="./style.css">
-		<meta charset="UTF-8">
-		
-	</head>
-
-	<body>
-
-		<!-- Title -->
-		<div id="title">
-			<h1 id="titleHeader">Nathan Weinberg</h1> 
+<!-- About -->
+<div id="about">
+	<h2 id="contactHeader" style="text-align: center">About</h1>
+	<div id=education>
+		<h3>Education</h3>
+		<p><b>Boston University</b>, Boston, MA, Sept. 2015 - May 2019</p>
+		<p><i>B.A. in Computer Science, Minor in Film and Television</i></p>
+		<ul>
+			<li>GPA: 3.54</li>
+			<li>Presidential Scholarship</li>
+			<li>Relevant Coursework: Data Mechanics, Computing Systems, Geometric Algorithms, Combinatoric Structures, Introduction to Analysis of Algorithms</li>
+		</ul>
+	</div>
+	<div id="skills">
+		<h3>Skills</h3>
+		<p><i>Progamming:</i> Proficient in Python | Experience with BASH, C, Ruby, Java, HTML</p>
+		<p><i>Technologies:</i> Git, MongoDB, PostgreSQL, Vagrant, VirtualBox, Ansible, various Linux OS flavors</p>
+	</div>
+	<div id="experience">
+		<h3>Experience</h3>
+		<div>
+			<p><b>Red Hat</b>, Westford, MA, May 2018 - Present</p>
+			<p><i>Storage Team Intern</i></p>
+			<ul>
+				<li>Contributed to Tendrl, the upstream Monitoring system for Red Hat Gluster Storage, by writing unit tests in the commons repository and functional tests in the ui repository</li>
+				<li>Performed various installation and upgrade tests on Web Administration, the downstream Monitoring system for Red Hat Gluster Storage, in a variety of Virtual Machine environments built using custom-made scripts</li>
+			</ul>					
 		</div>
-
 		<hr/>
-
-		<!-- About -->
-		<div id="about" style="text-align: left;">
-			<h2 id="contactHeader">About</h1>
-			<div id=education>
-				<h3>Education</h3>
-				<p><b>Boston University</b>, Boston, MA, Sept 2015 - May 2019</p>
-				<p><i>B.A. in Computer Science, Minor in Film and Television</i></p>
-				<ul>
-					<li>GPA: 3.54</li>
-					<li>Presidential Scholarship</li>
-					<li>Relevant Coursework: Data Mechanics, Computing Systems, Geometric Algorithms, Combinatoric Structures, Introduction to Analysis of Algorithms</li>
-				</ul>
-			</div>
-			<div id="skills">
-				<h3>Skills</h3>
-				<p><i>Progamming:</i> Proficient in Python | Experience with BASH, C, Ruby, Java, HTML</p>
-				<p><i>Technologies:</i> Git, MongoDB, PostgreSQL, Vagrant, VirtualBox, Ansible, various Linux OS flavors</p>
-			</div>
-			<div id="experience">
-				<h3>Experience</h3>
-				<div>
-					<p><b>Red Hat</b>, Westford, MA, May 2018 - Present</p>
-					<p><i>Storage Team Intern</i></p>
-					<ul>
-						<li>Contributed to Tendrl, the upstream Monitoring system for Red Hat Gluster Storage, by writing unit tests in the commons repository and functional tests in the ui repository</li>
-						<li>Performed various installation and upgrade tests on Web Administration, the downstream Monitoring system for Red Hat Gluster Storage, in a variety of Virtual Machine environments built using custom-made scripts</li>
-					</ul>					
-				</div>
-				<hr/>
-				<div>
-					<p><b>BU IT Help Center</b>, Boston, MA, Feb. 2016 - Sept. 2018</p>
-					<p><i>Desktop Services Student Technician</i></p>
-					<ul>
-						<li>Provided Tier-1 on-site support for walk-in clients at three BU schools/colleges, and campus-wide support for University students, staff, and faculty at the central IT support center</li>
-						<li>Experience with IT service management software ServiceNow, print management software PaperCut, and high stakes assessment software SofTest</li>
-					</ul>
-				</div>
-				<hr/>
-				<div>
-					<p><b>Ding</b>, Dublin, Ireland, June 2017 - August 2017</p>
-					<p><i>Support Desk Intern</i></p>
-					<ul>
-						<li>Worked closely with Support Desk Administrator to provide worldwide user support for over 200 company employees in 8 different offices</li>
-						<li>Used a variety of IT administrative tools such as Active Directory, Lansweeper, Microsoft Office 365 and Skype for Business Admin Centers, and Track-It to maintain company accounts and machines</li>
-					</ul>					
-				</div>
-				<hr/>
-			</div>
+		<div>
+			<p><b>BU IT Help Center</b>, Boston, MA, Feb. 2016 - Sept. 2018</p>
+			<p><i>Desktop Services Student Technician</i></p>
+			<ul>
+				<li>Provided Tier-1 on-site support for walk-in clients at three BU schools/colleges, and campus-wide support for University students, staff, and faculty at the central IT support center</li>
+				<li>Experience with IT service management software ServiceNow, print management software PaperCut, and high stakes assessment software SofTest</li>
+			</ul>
 		</div>
-
-		<!-- Contact -->
-		<div id="contact">
-			<h2 id="contactHeader">Contact</h1>
-			<form action="https://formspree.io/nathan2@stwmd.net" method="POST">
-				<div>
-					<label for="name">Your Name:</label>
-					<input type="text" name="name" required="true">
-				</div>
-				<div>
-					<label for="email">Your Email:</label>
-					<input type="email" name="email" required="true">					
-				</div>
-				<div>
-					<label for="message">Message:</label>
-					<textarea name="message" required="true"></textarea>					
-				</div>
-				<div>
-					<button type="submit">Send</button>
-				</div>
-			</form>
+		<hr/>
+		<div>
+			<p><b>Ding</b>, Dublin, Ireland, June 2017 - Aug. 2017</p>
+			<p><i>Support Desk Intern</i></p>
+			<ul>
+				<li>Worked closely with Support Desk Administrator to provide worldwide user support for over 200 company employees in 8 different offices</li>
+				<li>Used a variety of IT administrative tools such as Active Directory, Lansweeper, Microsoft Office 365 and Skype for Business Admin Centers, and Track-It to maintain company accounts and machines</li>
+			</ul>					
 		</div>
+		<hr/>
+	</div>
+</div>
 
-		<br/>
-
-		<!-- Links -->
-		<div id="links">
-			<a class="imageLink" href="./documents/resume.pdf" target="_blank">
-				<img src="./images/document.png" alt="Resume">
-			</a>
-
-			<a class="imageLink" href="https://github.com/nathan-weinberg" target="_blank">
-				<img src="./images/GitHub-Mark-32px.png" alt="GitHub">
-			</a>
-			<a class="imageLink" href="https://www.linkedin.com/in/nathan-weinberg/" target="_blank">
-				<img src="./images/In-2C-28px-R.png" alt="LinkedIn">
-			</a>
+<!-- Contact -->
+<div id="contact" style="text-align: center">
+	<h2 id="contactHeader">Contact</h1>
+	<form action="https://formspree.io/nathan2@stwmd.net" method="POST">
+		<div>
+			<label for="name">Your Name:</label>
+			<input type="text" name="name" required="true">
 		</div>
-
-	</body>
-
-</html>
+		<div>
+			<label for="email">Your Email:</label>
+			<input type="email" name="email" required="true">					
+		</div>
+		<div>
+			<label for="message">Message:</label>
+			<textarea name="message" required="true"></textarea>					
+		</div>
+		<div>
+			<button type="submit">Send</button>
+		</div>
+	</form>
+</div>
