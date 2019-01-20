@@ -1,6 +1,6 @@
 # nathan-weinberg.github.io
 
-Personal website that can be found at nathanweinberg.me
+Personal website that can be found at [nathanweinberg.me](http://nathanweinberg.me/)
 
 ### Templating
 
