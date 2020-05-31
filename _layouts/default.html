@@ -12,11 +12,15 @@
     {% endif %}
     <meta charset="UTF-8">
     {% seo title=false %}
-    <title>Nathan Weinberg</title>
+    <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
   </head>
 
   <body>
@@ -43,7 +47,7 @@
 
     <footer class="site-footer" style="text-align: center">
       <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">nathanweinberg.me</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
-      <span class="site-footer-credits">Logo by <a href="mailto:jpestela@bu.edu" >Juan Estela</a></span>
+      <span class="site-footer-credits">Logo by <a href="https://juanestela.media/">Juan Estela</a></span>
     </footer>
 
   </body>
