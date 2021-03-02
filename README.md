@@ -3,7 +3,10 @@
 Personal website that can be found at [nathanweinberg.me](http://nathanweinberg.me/)
 
 ### To Run Locally
-`bundle exec jekyll serve`
+```bash
+$ bundle update github-pages
+$ bundle exec jekyll serve
+```
 
 ### Templating
 
