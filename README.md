@@ -1,6 +1,6 @@
 # nathan-weinberg.github.io
 
-Personal website that can be found at [nathanweinberg.me](http://nathanweinberg.me/)
+Personal website that can be found at [nathanweinberg.me](https://nathanweinberg.me/)
 
 ## To Run Locally
 These instructions assume the use of Fedora Linux. It is **highly recommended** that you use [rvm](https://rvm.io). Ensure you are using Ruby 2.7.
