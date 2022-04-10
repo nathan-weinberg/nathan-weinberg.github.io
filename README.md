@@ -3,10 +3,12 @@
 Personal website that can be found at [nathanweinberg.me](http://nathanweinberg.me/)
 
 ## To Run Locally
+These instructions assume the use of Fedora Linux
 ### Initial Setup
-- Install prereqs if you haven't already: https://jekyllrb.com/docs/installation/
-    - Ensure you are using Ruby 2.7 
-- Install the jekyll and bundler gems if you haven't already: https://jekyllrb.com/docs/
+- Install requirements if you haven't already: https://jekyllrb.com/docs/installation/
+    - Ensure you are using Ruby 2.7
+- Install prerequisites if you haven't already: https://jekyllrb.com/docs/installation/other-linux/
+- Install the jekyll and bundler gems if you haven't already: https://jekyllrb.com/docs/installation/ubuntu/
 
 Then run the following commands:
 ```bash
